@@ -79,7 +79,7 @@ function ProductListScreen() {
         toast.success('product created successfully');
         dispatch({ type: 'CREATE_SUCCESS' });
         navigate(`/admin/product/${data.product._id}`);
-      } catch (err) {
+      } catch (error) {
         toast.error(getError(error));
         dispatch({
           type: 'CREATE_FAIL',
@@ -117,6 +117,7 @@ function ProductListScreen() {
                 <th>PRICE</th>
                 <th>CATEGORY</th>
                 <th>BRAND</th>
+                <th>ACTION</th>
               </tr>
             </thead>
             <tbody>
@@ -127,6 +128,15 @@ function ProductListScreen() {
                   <td>${product.price}</td>
                   <td>{product.category}</td>
                   <td>{product.brand}</td>
+                  <td>
+                    <Button
+                      type="button"
+                      variant="light"
+                      onClick={() => navigate(`/admin/product/${product._id}`)}
+                    >
+                      Edit
+                    </Button>
+                  </td>
                 </tr>
               ))}
             </tbody>
