@@ -5,6 +5,17 @@ import User from '../models/userModel.js';
 import Product from '../models/productModel.js';
 import { isAuth, isAdmin } from '../utils.js';
 const orderRouter = express.Router();
+
+orderRouter.get(
+  '/',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const orders = await Order.find().populate('user', 'name');
+    res.send(orders);
+  })
+);
+
 orderRouter.post(
   '/',
   isAuth,
