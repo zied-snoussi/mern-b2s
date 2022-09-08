@@ -32,6 +32,7 @@ import ProductListScreen from './screens/ProductListScreen';
 import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
 import UserListScreen from './screens/UserListScreen';
+import UserEditScreen from './screens/UseEditScreen';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -157,8 +158,8 @@ function App() {
             ))}
           </Nav>
         </div>
-        <main className="mt-3">
-          <Container>
+        <main>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
@@ -173,6 +174,7 @@ function App() {
                   </ProtectedRoute>
                 }
               />
+
               <Route path="/placeorder" element={<PlaceOrderScreen />} />
               <Route
                 path="/order/:id"
@@ -181,7 +183,7 @@ function App() {
                     <OrderScreen />
                   </ProtectedRoute>
                 }
-              />
+              ></Route>
               <Route
                 path="/orderhistory"
                 element={
@@ -189,9 +191,12 @@ function App() {
                     <OrderHistoryScreen />
                   </ProtectedRoute>
                 }
-              />
-              <Route path="/shipping" element={<ShippingAddressScreen />} />
-              <Route path="/payment" element={<PaymentMethodScreen />} />
+              ></Route>
+              <Route
+                path="/shipping"
+                element={<ShippingAddressScreen />}
+              ></Route>
+              <Route path="/payment" element={<PaymentMethodScreen />}></Route>
               {/* Admin Routes */}
               <Route
                 path="/admin/dashboard"
@@ -200,15 +205,7 @@ function App() {
                     <DashboardScreen />
                   </AdminRoute>
                 }
-              />
-              <Route
-                path="/admin/products"
-                element={
-                  <AdminRoute>
-                    <ProductListScreen />
-                  </AdminRoute>
-                }
-              />
+              ></Route>
               <Route
                 path="/admin/orders"
                 element={
@@ -216,7 +213,7 @@ function App() {
                     <OrderListScreen />
                   </AdminRoute>
                 }
-              />
+              ></Route>
               <Route
                 path="/admin/users"
                 element={
@@ -224,7 +221,15 @@ function App() {
                     <UserListScreen />
                   </AdminRoute>
                 }
-              />
+              ></Route>
+              <Route
+                path="/admin/products"
+                element={
+                  <AdminRoute>
+                    <ProductListScreen />
+                  </AdminRoute>
+                }
+              ></Route>
               <Route
                 path="/admin/product/:id"
                 element={
@@ -232,11 +237,21 @@ function App() {
                     <ProductEditScreen />
                   </AdminRoute>
                 }
-              />
+              ></Route>
+              <Route
+                path="/admin/user/:id"
+                element={
+                  <AdminRoute>
+                    <UserEditScreen />
+                  </AdminRoute>
+                }
+              ></Route>
+
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>
         </main>
+
         <footer>
           <div className="text-center">All rights reserved</div>
         </footer>
