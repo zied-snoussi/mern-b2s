@@ -48,7 +48,7 @@ userRouter.put(
   })
 );
 
-const ADMIN_EMAIL = 'hassenalsnoussi@gmail.com';
+const ADMIN_EMAIL = 'ziedsnoussi.tn@gmail.com';
 
 userRouter.delete(
   '/:id',
