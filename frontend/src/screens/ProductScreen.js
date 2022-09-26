@@ -160,7 +160,7 @@ function ProductScreen() {
               </Row>
             </ListGroup.Item>
             <ListGroup.Item>
-              Description:
+              <h3>Description:</h3>
               <p>{product.description}</p>
             </ListGroup.Item>
           </ListGroup>

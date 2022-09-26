@@ -46,6 +46,11 @@ export default function DashboardScreen() {
   }, [userInfo]);
   return (
     <div>
+      <img
+        className="dashboard_icon"
+        src="/images/dashboard.png"
+        alt="dashboard icon"
+      />
       <h1>Dashboard</h1>
       {loading ? (
         <LoadingBox />
@@ -55,7 +60,7 @@ export default function DashboardScreen() {
         <>
           <Row>
             <Col md={4}>
-              <Card>
+              <Card className="card-block">
                 <Card.Body>
                   <Card.Title>
                     {summary.users && summary.users[0]
@@ -67,7 +72,7 @@ export default function DashboardScreen() {
               </Card>
             </Col>
             <Col md={4}>
-              <Card>
+              <Card className="card-block">
                 <Card.Body>
                   <Card.Title>
                     {summary.orders && summary.users[0]
@@ -79,7 +84,7 @@ export default function DashboardScreen() {
               </Card>
             </Col>
             <Col md={4}>
-              <Card>
+              <Card className="card-block">
                 <Card.Body>
                   <Card.Title>
                     $

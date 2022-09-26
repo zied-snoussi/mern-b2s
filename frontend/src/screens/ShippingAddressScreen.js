@@ -112,7 +112,13 @@ function ShippingAddressScreen() {
               variant="light"
               onClick={() => navigate('/map')}
             >
-              Choose Location On Map
+              <img
+                className="map_icon"
+                src="https://res.cloudinary.com/b2s/image/upload/v1664176464/mapicon_xr4ivy.png"
+                alt="Choose Location On Map"
+                width="20px"
+              />
+              <br></br>Choose Location
             </Button>
             {shippingAddress.location && shippingAddress.location.lat ? (
               <div>

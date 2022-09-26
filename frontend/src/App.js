@@ -80,17 +80,32 @@ function App() {
                 variant="dark"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
               >
-                <i className="fas fa-bars"></i>
+                <img
+                  className="categories-icon"
+                  src="https://res.cloudinary.com/b2s/image/upload/v1664141448/categoriesicon_lwbf4y.png"
+                  alt="Categories"
+                  width="30px"
+                />
               </Button>
               <LinkContainer to="/">
-                <Navbar.Brand>B2S</Navbar.Brand>
+                <Navbar.Brand>
+                  <img
+                    className="logo_star_shop"
+                    src="https://res.cloudinary.com/b2s/image/upload/v1664141449/starshop1_avqyhk.png"
+                    alt="Star Shop"
+                  />
+                </Navbar.Brand>
               </LinkContainer>
+              <SearchBox />
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <SearchBox />
                 <Nav className="me-auto w-100 justify-content-end text-center">
                   <Link to="/cart" className="nav-link">
-                    Cart
+                    <img
+                      className="logo_cart"
+                      src="https://res.cloudinary.com/b2s/image/upload/v1664141448/cart_lqenqo.png"
+                      alt="Cart"
+                    />
                     {cart.cartItems.length > 0 && (
                       <Badge pill bg="danger">
                         {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
@@ -98,7 +113,17 @@ function App() {
                     )}
                   </Link>
                   {userInfo ? (
-                    <NavDropdown title={userInfo.name} id="basic-nav-dropdown">
+                    <NavDropdown
+                      title={
+                        <img
+                          className="user_icon"
+                          src="https://res.cloudinary.com/b2s/image/upload/v1664141448/usericon_bvrlrh.png"
+                          alt={userInfo.name}
+                          width="25px"
+                        />
+                      }
+                      id="basic-nav-dropdown"
+                    >
                       <LinkContainer to="/profile">
                         <NavDropdown.Item>User Profile</NavDropdown.Item>
                       </LinkContainer>
@@ -120,7 +145,17 @@ function App() {
                     </Link>
                   )}
                   {userInfo && userInfo.isAdmin && (
-                    <NavDropdown title="Admin" id="admin-nav-dropdown">
+                    <NavDropdown
+                      title={
+                        <img
+                          className="admin_icon"
+                          src="https://res.cloudinary.com/b2s/image/upload/v1664141448/adminicon_ppcfkz.png"
+                          alt="Admin"
+                          width="35px"
+                        />
+                      }
+                      id="admin-nav-dropdown"
+                    >
                       <LinkContainer to="/admin/dashboard">
                         <NavDropdown.Item>Dashboard</NavDropdown.Item>
                       </LinkContainer>
