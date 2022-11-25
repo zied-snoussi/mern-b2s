@@ -157,3 +157,14 @@ button.thumbnail {
 .card-block {
   background-color: rgba(245, 245, 245, 0.4);
 }
+
+.contact {
+  background-color: #252428;
+  text-align: center;
+  color: #ffffff;
+}
+
+.backtotop {
+  text-decoration: none;
+  color: #a0a0a0;
+}

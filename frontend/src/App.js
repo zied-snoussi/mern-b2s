@@ -34,6 +34,7 @@ import OrderListScreen from './screens/OrderListScreen';
 import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UseEditScreen';
 import MapScreen from './screens/MapScreen';
+import Contact from './components/Contact';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -66,7 +67,7 @@ function App() {
           sidebarIsOpen
             ? fullBox
               ? 'site-container active-cont d-flex flex-column full-box'
-              : 'site-container active-cont d-flex flex-column'
+              : 'site-container active-cont d-flex flex-column '
             : fullBox
             ? 'site-container d-flex flex-column full-box'
             : 'site-container d-flex flex-column'
@@ -298,10 +299,10 @@ function App() {
             </Routes>
           </Container>
         </main>
-
-        <footer>
+        <Contact />
+        {/* <footer>
           <div className="text-center">All rights reserved</div>
-        </footer>
+        </footer> */}
       </div>
     </BrowserRouter>
   );
