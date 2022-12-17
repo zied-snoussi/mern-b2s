@@ -128,7 +128,7 @@ export default function OrderListScreen() {
                 <td>
                   <Button
                     type="button"
-                    variant="light"
+                    variant="info"
                     onClick={() => {
                       navigate(`/order/${order._id}`);
                     }}
@@ -138,7 +138,7 @@ export default function OrderListScreen() {
                   &nbsp;
                   <Button
                     type="button"
-                    variant="light"
+                    variant="danger"
                     onClick={() => deleteHandler(order)}
                   >
                     Delete

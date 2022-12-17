@@ -105,7 +105,7 @@ function ShippingAddressScreen() {
               required
             />
           </Form.Group>
-          <div className="mb-3">
+          <div className="text-center mb-3">
             <Button
               id="chooseOnMap"
               type="button"
@@ -129,8 +129,8 @@ function ShippingAddressScreen() {
               <div>No location</div>
             )}
           </div>
-          <div className="mb-3">
-            <Button variant="primary" type="submit">
+          <div className="text-center mb-3">
+            <Button variant="warning" type="submit">
               Continue
             </Button>
           </div>

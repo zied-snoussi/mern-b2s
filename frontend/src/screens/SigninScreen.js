@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Helmet } from 'react-helmet-async';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import {Store} from '../Store.js';
+import { Store } from '../Store.js';
 import { toast } from 'react-toastify';
 import { getError } from '../utils.js';
 function SigninScreen() {
@@ -18,7 +18,7 @@ function SigninScreen() {
   const [password, setPassword] = useState('');
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
-  const {userInfo} = state;
+  const { userInfo } = state;
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
@@ -64,7 +64,9 @@ function SigninScreen() {
           />
         </Form.Group>
         <div className="mb-3">
-          <Button type="submit">Sign In</Button>
+          <Button type="submit" variant="warning">
+            Sign In
+          </Button>
         </div>
         <div className="mb-3">
           New customer?{' '}

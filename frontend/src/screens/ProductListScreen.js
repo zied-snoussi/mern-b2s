@@ -147,7 +147,7 @@ export default function ProductListScreen() {
         </Col>
         <Col className="col text-end">
           <div>
-            <Button type="button" onClick={createHandler}>
+            <Button variant="warning" type="button" onClick={createHandler}>
               Create Product
             </Button>
           </div>
@@ -185,7 +185,7 @@ export default function ProductListScreen() {
                   <td>
                     <Button
                       type="button"
-                      variant="light"
+                      variant="info"
                       onClick={() => navigate(`/admin/product/${product._id}`)}
                     >
                       Edit
@@ -193,7 +193,7 @@ export default function ProductListScreen() {
                     &nbsp;
                     <Button
                       type="button"
-                      variant="light"
+                      variant="danger"
                       onClick={() => deleteHandler(product)}
                     >
                       Delete

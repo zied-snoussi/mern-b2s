@@ -190,7 +190,7 @@ function ProductScreen() {
                 {product.countInStock > 0 && (
                   <ListGroup.Item>
                     <div className="d-grid">
-                      <Button onClick={addToCartHandler} variant="primary">
+                      <Button onClick={addToCartHandler} variant="warning">
                         Add to Cart
                       </Button>
                     </div>
@@ -250,8 +250,12 @@ function ProductScreen() {
                 />
               </FloatingLabel>
               <div className="mb-3">
-                <Button disabled={loadingCreateReview} type="submit">
-                  Submit
+                <Button
+                  disabled={loadingCreateReview}
+                  type="submit"
+                  variant="warning"
+                >
+                  Post Comment
                 </Button>
                 {loadingCreateReview && <LoadingBox></LoadingBox>}
               </div>

@@ -120,7 +120,7 @@ export default function UserListScreen() {
                 <td>
                   <Button
                     type="button"
-                    variant="light"
+                    variant="info"
                     onClick={() => navigate(`/admin/user/${user._id}`)}
                   >
                     Edit
@@ -128,7 +128,7 @@ export default function UserListScreen() {
                   &nbsp;
                   <Button
                     type="button"
-                    variant="light"
+                    variant="danger"
                     onClick={() => deleteHandler(user)}
                   >
                     Delete

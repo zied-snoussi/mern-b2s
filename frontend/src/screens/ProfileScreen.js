@@ -96,7 +96,9 @@ function ProfileScreen() {
           />
         </Form.Group>
         <div className="mb-3">
-          <Button type="submit">Update</Button>
+          <Button type="submit" variant="warning">
+            Update
+          </Button>
         </div>
       </form>
     </div>

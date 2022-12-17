@@ -75,7 +75,9 @@ function OrderHistoryScreen() {
                 <td>{order.totalPrice.toFixed(2)}</td>
                 <td>{order.isPaid ? order.paidAt.substring(0, 10) : 'No'}</td>
                 <td>
-                  {order.isDelivred ? order.delivredAt.substring(0, 10) : 'No'}
+                  {order.isDelivered
+                    ? order.deliveredAt.substring(0, 10)
+                    : 'No'}
                 </td>
                 <td>
                   <Button

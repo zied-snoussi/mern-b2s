@@ -77,6 +77,15 @@ function App() {
         <header>
           <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
+              <LinkContainer to="/">
+                <Navbar.Brand>
+                  <img
+                    className="logo_star_shop"
+                    src="https://res.cloudinary.com/b2s/image/upload/v1664141449/starshop1_avqyhk.png"
+                    alt="Star Shop"
+                  />
+                </Navbar.Brand>
+              </LinkContainer>
               <Button
                 variant="dark"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
@@ -87,16 +96,8 @@ function App() {
                   alt="Categories"
                   width="30px"
                 />
+                <span> Categories</span>
               </Button>
-              <LinkContainer to="/">
-                <Navbar.Brand>
-                  <img
-                    className="logo_star_shop"
-                    src="https://res.cloudinary.com/b2s/image/upload/v1664141449/starshop1_avqyhk.png"
-                    alt="Star Shop"
-                  />
-                </Navbar.Brand>
-              </LinkContainer>
               <SearchBox />
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

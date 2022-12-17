@@ -173,6 +173,7 @@ function PlaceOrderScreen() {
                       type="button"
                       onClick={placeOrderHandler}
                       disabled={cart.cartItems.length === 0}
+                      variant="warning"
                     >
                       Place Order
                     </Button>
