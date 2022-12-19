@@ -1,10 +1,10 @@
 # 
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">MERN B2S</h2>
+ <img width="150px" src="https://user-images.githubusercontent.com/74665047/208548778-db043282-5594-4f50-b66e-f8b65dbef153.png" align="center" alt="STARSHOP" />
+ <h2 align="center">STAR SHOP</h2>
+ <p align="center"><img src="https://github-readme-stats.vercel.app/api/pin?username=zied-snoussi&repo=mern-b2s&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515"/></p>
 </p>
-
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=zied-snoussi&repo=mern-b2s&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515) 
+ 
 ## Let's start
 
 #### First, what MERN stack stands for?
