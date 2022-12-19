@@ -41,11 +41,24 @@ function HomeScreen() {
     };
     fetchData();
   }, []);
+
   return (
     <div>
       <Helmet>
         <title>STAR SHOP</title>
       </Helmet>
+      <video
+        src="https://res.cloudinary.com/b2s/video/upload/v1671332940/spot_sdt4yr.mp4"
+        controls
+        muted={false}
+        autoPlay={'autoplay'}
+        preLoad="auto"
+        loop
+        width={'90%'}
+      >
+        VideoPost
+      </video>
+
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
