@@ -7,7 +7,7 @@
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build --force",
     "start": "node backend/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./frontend/build"
   },
   "repository": {
     "type": "git",
