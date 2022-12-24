@@ -6,7 +6,8 @@
   "scripts": {
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build --force",
     "start": "node backend/server.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zied-snoussi/mern-b2s/issues"
   },
-  "homepage": "https://github.com/zied-snoussi/mern-b2s#readme"
+  "homepage": "https://zied-snoussi.github.io/mern-b2s",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
