@@ -1,9 +1,9 @@
 # 
-<p align="center">
+<div align="center">
  <img width="150px" src="https://user-images.githubusercontent.com/74665047/208548778-db043282-5594-4f50-b66e-f8b65dbef153.png" align="center" alt="STARSHOP" />
  <h2 align="center">STAR SHOP</h2>
  <p align="center"><img src="https://github-readme-stats.vercel.app/api/pin?username=zied-snoussi&repo=mern-b2s&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515"/></p>
-</p>
+</div>
  
 ## Let's start
 
