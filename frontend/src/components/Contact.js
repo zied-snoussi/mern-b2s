@@ -30,8 +30,7 @@ export default function App() {
                 STARSHOP
               </h6>
               <p>
-                STARSHOP Societe created at 2018 for vente des vetements d'homme
-                and femme ...
+                STARSHOP is a European multinational e-commerce company headquartered in Nice, France. STAR-SHOP is the name of its proprietary e-commerce platform for online stores and retail point-of-sale systems.
               </p>
             </MDBCol>
 
