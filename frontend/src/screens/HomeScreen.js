@@ -47,6 +47,7 @@ function HomeScreen() {
       <Helmet>
         <title>STAR SHOP</title>
       </Helmet>
+    <div align="center">
       <video
         src="https://res.cloudinary.com/b2s/video/upload/v1671332940/spot_sdt4yr.mp4"
         controls
@@ -54,10 +55,11 @@ function HomeScreen() {
         autoPlay={'autoplay'}
         preLoad="auto"
         loop
-        width={'90%'}
+        width={'60%'}
       >
         VideoPost
-      </video>
+  </video>
+  </div>
 
       <h1>Featured Products</h1>
       <div className="products">
