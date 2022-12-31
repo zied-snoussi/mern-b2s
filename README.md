@@ -27,13 +27,14 @@ Mainly because this stack is completed composed utilizing the JavaScript languag
 
 [More info can be found here: ](https://www.educative.io/edpresso/what-is-mern-stack)
 
-![image](https://user-images.githubusercontent.com/74665047/208276049-2ba35587-c1af-4393-acd8-b34505c33c10.png)
-![image](https://user-images.githubusercontent.com/74665047/208276085-6cc6c21d-5db4-4a0f-9c92-04bc70ee3409.png)
-![image](https://user-images.githubusercontent.com/74665047/208276095-b7f4e6ee-4b86-4c8c-ac1a-c6f545e048b4.png)
-![image](https://user-images.githubusercontent.com/74665047/208276114-0a28d9b7-95ff-42c0-b6aa-08c1a6536601.png)
-![image](https://user-images.githubusercontent.com/74665047/208276134-dc0f44ab-bf38-439c-aba9-4ec5326dd9a3.png)
-![image](https://user-images.githubusercontent.com/74665047/208276142-3c5857d8-cc73-4b97-a63c-86f5762adcf1.png)
-![image](https://user-images.githubusercontent.com/74665047/208276161-7f5f968f-71d4-4f13-943d-381c54de374d.png)
-![image](https://user-images.githubusercontent.com/74665047/208276165-989b97ee-5ec4-4fc9-a325-82dda6b90dc2.png)
-![image](https://user-images.githubusercontent.com/74665047/208276173-c348ae7a-6146-4c5d-98dd-b9bbe8eb2c05.png)
-![image](https://user-images.githubusercontent.com/74665047/208276197-f25456c8-45e2-47fc-8cdd-5fd192803a72.png)
+![Interface](https://user-images.githubusercontent.com/74665047/210154007-d983efb7-0ce7-498e-88b6-d9cae6b8e047.png)
+![product](https://user-images.githubusercontent.com/74665047/210154008-a645d33b-c782-485c-b0af-f831b665c2e5.png)
+![dashboard](https://user-images.githubusercontent.com/74665047/210154013-59015bbe-5e95-4913-9df7-345f2559dc95.png)
+![Products](https://user-images.githubusercontent.com/74665047/210154056-34315c83-6ce6-49bb-9f61-50d899fef859.png)
+![updateproduct](https://user-images.githubusercontent.com/74665047/210154019-f6201379-c846-4d83-a258-60f3756f352b.png)
+![Search](https://user-images.githubusercontent.com/74665047/210154039-050ae951-b8ba-4b3a-8acf-6b96a7093190.png)
+![etapecommande](https://user-images.githubusercontent.com/74665047/210154021-1327c77e-f28b-464e-b036-a79b5e6ae22e.png)
+![DB](https://user-images.githubusercontent.com/74665047/210154025-d0142f66-78ec-4d5f-800c-86971a7409a4.png)
+
+
+
