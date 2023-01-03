@@ -33,7 +33,7 @@ Mainly because this stack is completed composed utilizing the JavaScript languag
 ![Products](https://user-images.githubusercontent.com/74665047/210154056-34315c83-6ce6-49bb-9f61-50d899fef859.png)
 ![updateproduct](https://user-images.githubusercontent.com/74665047/210154019-f6201379-c846-4d83-a258-60f3756f352b.png)
 ![Search](https://user-images.githubusercontent.com/74665047/210154039-050ae951-b8ba-4b3a-8acf-6b96a7093190.png)
-![etapecommande](https://user-images.githubusercontent.com/74665047/210154021-1327c77e-f28b-464e-b036-a79b5e6ae22e.png)
+![etapecommande](https://user-images.githubusercontent.com/74665047/210456034-63e087b8-c9e2-4fba-9f0b-b62ead1f3d40.png)
 ![DB](https://user-images.githubusercontent.com/74665047/210154025-d0142f66-78ec-4d5f-800c-86971a7409a4.png)
 
 
